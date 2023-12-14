@@ -3,7 +3,7 @@
 
 # [Medium](https://medium.com/)
 
-![image](https://cdn.discordapp.com/attachments/1102577297803972668/1184965928950190090/image.png?ex=658de485&is=657b6f85&hm=46f2172eee7837fe773a689eacec4f2bac864d91e4e9bd1076811af26063a731&)
+![image](https://cdn.discordapp.com/attachments/1102577297803972668/1184974484936065064/image.png?ex=658dec7c&is=657b777c&hm=b295aad09ba3e082afb00e79603a6042f2ca36f0765f1fab420617d89a22b4eb&)
 
 
 ![image](https://cdn.discordapp.com/attachments/1102577297803972668/1184966613137633290/image.png?ex=658de528&is=657b7028&hm=2a9fdc36c21ec4ef668241ba4fc61da3b42961c36b3b3a710b8aa2dbbd844364&)
