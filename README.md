@@ -1,4 +1,4 @@
-# 1 aydır uğraştığım medium.com sitesinin kopyası
+# medium.com sitesinin kopyası
 # Yeniledikçe fotoğrafları güncelliyicem bitirincede altyapı burda olur
 
 # [Medium](https://medium.com/)
