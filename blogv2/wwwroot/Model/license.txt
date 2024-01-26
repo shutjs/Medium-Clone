@@ -1,0 +1,11 @@
+Model Information:
+* title:	Voxel Web Development
+* source:	https://sketchfab.com/3d-models/voxel-web-development-50ad959d6c6b4799806c45bfa46ca550
+* author:	Diego G. (https://sketchfab.com/empty_mirror)
+
+Model License:
+* license type:	CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)
+* requirements:	Author must be credited. Commercial use is allowed.
+
+If you use this 3D model in your project be sure to copy paste this credit wherever you share it:
+This work is based on "Voxel Web Development" (https://sketchfab.com/3d-models/voxel-web-development-50ad959d6c6b4799806c45bfa46ca550) by Diego G. (https://sketchfab.com/empty_mirror) licensed under CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)
