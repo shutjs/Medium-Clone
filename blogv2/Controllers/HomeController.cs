@@ -214,12 +214,11 @@ namespace blogv2.Controllers
 
             SmtpClient smtpClient = new SmtpClient();
             smtpClient.Connect("smtp.gmail.com", 587, false);
-            smtpClient.Authenticate("mailverify223@gmail.com", "sewznjwikhvbqufl");
+            smtpClient.Authenticate("mailonayKullanıcıAdı", "mailonayŞifre");
 
             smtpClient.Send(minimessage);
             smtpClient.Disconnect(true);
-            //mailverify223@gmail.com
-            //Burakinr1
+
             return RedirectToAction("Index", "Home");
         }
         public async Task<IActionResult> Logout()
