@@ -1,0 +1,32 @@
+﻿
+@{    ViewData["Title"] = "Home Page"; }
+@model IEnumerable<blogv2.Models.Makaleler>
+
+<div class="profileContainer">
+    <div class="profileImage"><img src="@ViewBag.profileImage" alt="profileimagew" /></div>
+    <div class="nameeee">@ViewBag.Ad @ViewBag.Soyad</div>
+    <div class="makaleleri">
+        @{
+            var trendingArticles = Model.OrderByDescending(item => item.yazilimTarih).ToList();
+        }
+
+        @foreach (var item in trendingArticles)
+        {
+
+            @if (item != null && item.yazanKisi != null && ViewBag.User != null && item.yazanKisi.ToString() == ViewBag.User.ToString())
+            {
+  <a href="/Makaleler/Details/@item.id" style="text-decoration: none; color: #000;">
+    <div class="card-container">
+        <div class="cardd">
+            <div class="banner"><img src="@Html.DisplayFor(modelItem => item.icerikResim)" alt="banner" /></div>
+            <div class="isim2">@Html.DisplayFor(modelItem => item.baslik)</div>
+        </div>
+      </div>
+      </a>
+    }
+}
+    </div>
+    <div class="aboutProfile">
+        @ViewBag.about
+    </div>
+</div>

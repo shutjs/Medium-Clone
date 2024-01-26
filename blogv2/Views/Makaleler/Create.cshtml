@@ -1,0 +1,103 @@
+﻿@model blogv2.Models.Makaleler
+
+@{
+    ViewData["Title"] = "Create";
+}
+<form asp-controller="Makaleler" asp-action="Create" method="post">
+    <div class="create-container">
+        <div class="form-group">
+            <label for="baslik" class="baslikcreate">Makale Başlığı</label>
+            <input required asp-for="baslik" class="tittlee" type="text">
+        </div>
+
+        <div class="form-group">
+            <label for="icerik" class="baslikcreate">Makale İçeriği</label>
+            <textarea asp-for="icerik" class="inputİcerik"></textarea>
+        </div>
+
+        <div class="form-group">
+            <label for="foto" class="baslikcreate">Makale Banner</label>
+            <input required placeholder="Lütfen link Giriniz" asp-for="icerikResim" class="foto" type="text">
+        </div>
+
+        <div class="form-group">
+            <label for="foto" class="baslikcreate">Okuma Süresi</label>
+            <input required placeholder="Ortalama Okuma Süresi Giriniz" asp-for="okumaSure" class="foto" type="text">
+        </div>
+        <div class="form-group">
+            <label for="kategori" class="baslikcreate" style="margin-right: 5px">Kategori</label>
+            <select asp-for="kategori" class="select">
+                <option value="Yazılım" selected>Yazılım</option>
+                <option value="WhatWereReading">Bugün Ne Okuyorum</option>
+            </select>
+        </div>
+        <input required asp-for="yazanKisi" value="@Context.Session.GetString("name")" type="hidden">
+        <input required asp-for="yazilimTarih" value="@DateTime.Now" type="hidden">
+        <button type="submit" class="button-submit">Makale Oluştur</button>
+    </div>
+</form>
+
+@if (ViewBag.SuccessMessage != null)
+{
+    <div class="success-message">@ViewBag.SuccessMessage</div>
+}
+<style>
+    .select{
+        width: 200px;
+        height: 50px;
+        vertical-align: central;
+        border: 1px solid gray;
+        border-radius: 5px;
+    }
+        .foto{
+            border-radius: 3px;
+            width: 100%;
+            height: 50px;
+            border: 1px solid gray;
+        }
+    .form-group{
+        margin-bottom:20px;
+        width: 100%;
+        height: auto;
+    }
+    .create-container{
+     padding-top: 120px;
+     width: 40%;
+     height: 1400px;
+     margin: auto;
+    }
+    .inputİcerik{
+        width: 100%;
+        height: 500px;
+    }
+    .tittlee{
+        font-size: 25px;
+     border: 1px solid gray;
+     border-radius: 3px;
+     width: 100%;
+     height: 100px;
+    }
+    .baslikcreate{
+          font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+          font-size:20px;
+          line-height: 40px;
+    }
+
+    .form-group input {
+        font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    }
+    .form-group textarea {
+        font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    }
+
+    .image-preview {
+        margin-top: 10px;
+    }
+
+    .preview-img {
+        max-width: 100%;
+        max-height: 200px;
+        display: block;
+        margin-top: 10px;
+    }
+</style>

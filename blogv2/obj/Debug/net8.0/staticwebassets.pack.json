@@ -1,0 +1,357 @@
+{
+  "Files": [
+    {
+      "Id": "C:\\Users\\burak\\OneDrive\\Masaüstü\\blogv2\\blogv2\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\blogv2.bundle.scp.css",
+      "PackagePath": "staticwebassets\\blogv2.bundle.scp.css"
+    },
+    {
+      "Id": "C:\\Users\\burak\\OneDrive\\Masaüstü\\blogv2\\blogv2\\wwwroot\\Model\\license.txt",
+      "PackagePath": "staticwebassets\\Model\\license.txt"
+    },
+    {
+      "Id": "C:\\Users\\burak\\OneDrive\\Masaüstü\\blogv2\\blogv2\\wwwroot\\Model\\scene.bin",
+      "PackagePath": "staticwebassets\\Model\\scene.bin"
+    },
+    {
+      "Id": "C:\\Users\\burak\\OneDrive\\Masaüstü\\blogv2\\blogv2\\wwwroot\\Model\\scene.gltf",
+      "PackagePath": "staticwebassets\\Model\\scene.gltf"
+    },
+    {
+      "Id": "C:\\Users\\burak\\OneDrive\\Masaüstü\\blogv2\\blogv2\\wwwroot\\Model\\textures\\palette_baseColor.png",
+      "PackagePath": "staticwebassets\\Model\\textures\\palette_baseColor.png"
+    },
+    {
+      "Id": "C:\\Users\\burak\\OneDrive\\Masaüstü\\blogv2\\blogv2\\wwwroot\\css\\index.css",
+      "PackagePath": "staticwebassets\\css\\index.css"
+    },
+    {
+      "Id": "C:\\Users\\burak\\OneDrive\\Masaüstü\\blogv2\\blogv2\\wwwroot\\favicon.ico",
+      "PackagePath": "staticwebassets\\favicon.ico"
+    },
+    {
+      "Id": "C:\\Users\\burak\\OneDrive\\Masaüstü\\blogv2\\blogv2\\wwwroot\\fonts\\Arial.woff",
+      "PackagePath": "staticwebassets\\fonts\\Arial.woff"
+    },
+    {
+      "Id": "C:\\Users\\burak\\OneDrive\\Masaüstü\\blogv2\\blogv2\\wwwroot\\fonts\\Arial.woff2",
+      "PackagePath": "staticwebassets\\fonts\\Arial.woff2"
+    },
+    {
+      "Id": "C:\\Users\\burak\\OneDrive\\Masaüstü\\blogv2\\blogv2\\wwwroot\\fonts\\Helvetica Neue Medium Extended.otf",
+      "PackagePath": "staticwebassets\\fonts\\Helvetica Neue Medium Extended.otf"
+    },
+    {
+      "Id": "C:\\Users\\burak\\OneDrive\\Masaüstü\\blogv2\\blogv2\\wwwroot\\fonts\\Helvetica Neue Medium Extended.ttf",
+      "PackagePath": "staticwebassets\\fonts\\Helvetica Neue Medium Extended.ttf"
+    },
+    {
+      "Id": "C:\\Users\\burak\\OneDrive\\Masaüstü\\blogv2\\blogv2\\wwwroot\\fonts\\gt-super-400-normal.woff",
+      "PackagePath": "staticwebassets\\fonts\\gt-super-400-normal.woff"
+    },
+    {
+      "Id": "C:\\Users\\burak\\OneDrive\\Masaüstü\\blogv2\\blogv2\\wwwroot\\fonts\\sohne-400-normal.woff",
+      "PackagePath": "staticwebassets\\fonts\\sohne-400-normal.woff"
+    },
+    {
+      "Id": "C:\\Users\\burak\\OneDrive\\Masaüstü\\blogv2\\blogv2\\wwwroot\\fonts\\sohne-500-normal.woff",
+      "PackagePath": "staticwebassets\\fonts\\sohne-500-normal.woff"
+    },
+    {
+      "Id": "C:\\Users\\burak\\OneDrive\\Masaüstü\\blogv2\\blogv2\\wwwroot\\fonts\\sohne-700-normal.woff",
+      "PackagePath": "staticwebassets\\fonts\\sohne-700-normal.woff"
+    },
+    {
+      "Id": "C:\\Users\\burak\\OneDrive\\Masaüstü\\blogv2\\blogv2\\wwwroot\\fonts\\source-serif-pro-400-normal.woff",
+      "PackagePath": "staticwebassets\\fonts\\source-serif-pro-400-normal.woff"
+    },
+    {
+      "Id": "C:\\Users\\burak\\OneDrive\\Masaüstü\\blogv2\\blogv2\\wwwroot\\images\\Logos\\Ekran görüntüsü 2023-12-01 234622.png",
+      "PackagePath": "staticwebassets\\images\\Logos\\Ekran görüntüsü 2023-12-01 234622.png"
+    },
+    {
+      "Id": "C:\\Users\\burak\\OneDrive\\Masaüstü\\blogv2\\blogv2\\wwwroot\\images\\Logos\\Untitled-1.png",
+      "PackagePath": "staticwebassets\\images\\Logos\\Untitled-1.png"
+    },
+    {
+      "Id": "C:\\Users\\burak\\OneDrive\\Masaüstü\\blogv2\\blogv2\\wwwroot\\images\\Logos\\Untitled-2.png",
+      "PackagePath": "staticwebassets\\images\\Logos\\Untitled-2.png"
+    },
+    {
+      "Id": "C:\\Users\\burak\\OneDrive\\Masaüstü\\blogv2\\blogv2\\wwwroot\\images\\Logos\\logo.png",
+      "PackagePath": "staticwebassets\\images\\Logos\\logo.png"
+    },
+    {
+      "Id": "C:\\Users\\burak\\OneDrive\\Masaüstü\\blogv2\\blogv2\\wwwroot\\images\\Remove-bg.ai_1701444511316.png",
+      "PackagePath": "staticwebassets\\images\\Remove-bg.ai_1701444511316.png"
+    },
+    {
+      "Id": "C:\\Users\\burak\\OneDrive\\Masaüstü\\blogv2\\blogv2\\wwwroot\\js\\ObritControl.js",
+      "PackagePath": "staticwebassets\\js\\ObritControl.js"
+    },
+    {
+      "Id": "C:\\Users\\burak\\OneDrive\\Masaüstü\\blogv2\\blogv2\\wwwroot\\js\\login.js",
+      "PackagePath": "staticwebassets\\js\\login.js"
+    },
+    {
+      "Id": "C:\\Users\\burak\\OneDrive\\Masaüstü\\blogv2\\blogv2\\wwwroot\\js\\model-viewer.min.js",
+      "PackagePath": "staticwebassets\\js\\model-viewer.min.js"
+    },
+    {
+      "Id": "C:\\Users\\burak\\OneDrive\\Masaüstü\\blogv2\\blogv2\\wwwroot\\js\\script.js",
+      "PackagePath": "staticwebassets\\js\\script.js"
+    },
+    {
+      "Id": "C:\\Users\\burak\\OneDrive\\Masaüstü\\blogv2\\blogv2\\wwwroot\\js\\webcomponents-loader.js",
+      "PackagePath": "staticwebassets\\js\\webcomponents-loader.js"
+    },
+    {
+      "Id": "C:\\Users\\burak\\OneDrive\\Masaüstü\\blogv2\\blogv2\\wwwroot\\lib\\bootstrap\\LICENSE",
+      "PackagePath": "staticwebassets\\lib\\bootstrap"
+    },
+    {
+      "Id": "C:\\Users\\burak\\OneDrive\\Masaüstü\\blogv2\\blogv2\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css"
+    },
+    {
+      "Id": "C:\\Users\\burak\\OneDrive\\Masaüstü\\blogv2\\blogv2\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map"
+    },
+    {
+      "Id": "C:\\Users\\burak\\OneDrive\\Masaüstü\\blogv2\\blogv2\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css"
+    },
+    {
+      "Id": "C:\\Users\\burak\\OneDrive\\Masaüstü\\blogv2\\blogv2\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\burak\\OneDrive\\Masaüstü\\blogv2\\blogv2\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css"
+    },
+    {
+      "Id": "C:\\Users\\burak\\OneDrive\\Masaüstü\\blogv2\\blogv2\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map"
+    },
+    {
+      "Id": "C:\\Users\\burak\\OneDrive\\Masaüstü\\blogv2\\blogv2\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css"
+    },
+    {
+      "Id": "C:\\Users\\burak\\OneDrive\\Masaüstü\\blogv2\\blogv2\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\burak\\OneDrive\\Masaüstü\\blogv2\\blogv2\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css"
+    },
+    {
+      "Id": "C:\\Users\\burak\\OneDrive\\Masaüstü\\blogv2\\blogv2\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map"
+    },
+    {
+      "Id": "C:\\Users\\burak\\OneDrive\\Masaüstü\\blogv2\\blogv2\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css"
+    },
+    {
+      "Id": "C:\\Users\\burak\\OneDrive\\Masaüstü\\blogv2\\blogv2\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\burak\\OneDrive\\Masaüstü\\blogv2\\blogv2\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css"
+    },
+    {
+      "Id": "C:\\Users\\burak\\OneDrive\\Masaüstü\\blogv2\\blogv2\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map"
+    },
+    {
+      "Id": "C:\\Users\\burak\\OneDrive\\Masaüstü\\blogv2\\blogv2\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css"
+    },
+    {
+      "Id": "C:\\Users\\burak\\OneDrive\\Masaüstü\\blogv2\\blogv2\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\burak\\OneDrive\\Masaüstü\\blogv2\\blogv2\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css"
+    },
+    {
+      "Id": "C:\\Users\\burak\\OneDrive\\Masaüstü\\blogv2\\blogv2\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map"
+    },
+    {
+      "Id": "C:\\Users\\burak\\OneDrive\\Masaüstü\\blogv2\\blogv2\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css"
+    },
+    {
+      "Id": "C:\\Users\\burak\\OneDrive\\Masaüstü\\blogv2\\blogv2\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\burak\\OneDrive\\Masaüstü\\blogv2\\blogv2\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css"
+    },
+    {
+      "Id": "C:\\Users\\burak\\OneDrive\\Masaüstü\\blogv2\\blogv2\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map"
+    },
+    {
+      "Id": "C:\\Users\\burak\\OneDrive\\Masaüstü\\blogv2\\blogv2\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css"
+    },
+    {
+      "Id": "C:\\Users\\burak\\OneDrive\\Masaüstü\\blogv2\\blogv2\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\burak\\OneDrive\\Masaüstü\\blogv2\\blogv2\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.css"
+    },
+    {
+      "Id": "C:\\Users\\burak\\OneDrive\\Masaüstü\\blogv2\\blogv2\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.css.map"
+    },
+    {
+      "Id": "C:\\Users\\burak\\OneDrive\\Masaüstü\\blogv2\\blogv2\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.min.css"
+    },
+    {
+      "Id": "C:\\Users\\burak\\OneDrive\\Masaüstü\\blogv2\\blogv2\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\burak\\OneDrive\\Masaüstü\\blogv2\\blogv2\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css"
+    },
+    {
+      "Id": "C:\\Users\\burak\\OneDrive\\Masaüstü\\blogv2\\blogv2\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map"
+    },
+    {
+      "Id": "C:\\Users\\burak\\OneDrive\\Masaüstü\\blogv2\\blogv2\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css"
+    },
+    {
+      "Id": "C:\\Users\\burak\\OneDrive\\Masaüstü\\blogv2\\blogv2\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\burak\\OneDrive\\Masaüstü\\blogv2\\blogv2\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js"
+    },
+    {
+      "Id": "C:\\Users\\burak\\OneDrive\\Masaüstü\\blogv2\\blogv2\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map"
+    },
+    {
+      "Id": "C:\\Users\\burak\\OneDrive\\Masaüstü\\blogv2\\blogv2\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js"
+    },
+    {
+      "Id": "C:\\Users\\burak\\OneDrive\\Masaüstü\\blogv2\\blogv2\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map"
+    },
+    {
+      "Id": "C:\\Users\\burak\\OneDrive\\Masaüstü\\blogv2\\blogv2\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js"
+    },
+    {
+      "Id": "C:\\Users\\burak\\OneDrive\\Masaüstü\\blogv2\\blogv2\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map"
+    },
+    {
+      "Id": "C:\\Users\\burak\\OneDrive\\Masaüstü\\blogv2\\blogv2\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js"
+    },
+    {
+      "Id": "C:\\Users\\burak\\OneDrive\\Masaüstü\\blogv2\\blogv2\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map"
+    },
+    {
+      "Id": "C:\\Users\\burak\\OneDrive\\Masaüstü\\blogv2\\blogv2\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.js"
+    },
+    {
+      "Id": "C:\\Users\\burak\\OneDrive\\Masaüstü\\blogv2\\blogv2\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.js.map"
+    },
+    {
+      "Id": "C:\\Users\\burak\\OneDrive\\Masaüstü\\blogv2\\blogv2\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.min.js"
+    },
+    {
+      "Id": "C:\\Users\\burak\\OneDrive\\Masaüstü\\blogv2\\blogv2\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map"
+    },
+    {
+      "Id": "C:\\Users\\burak\\OneDrive\\Masaüstü\\blogv2\\blogv2\\wwwroot\\lib\\jquery-validation-unobtrusive\\LICENSE.txt",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\LICENSE.txt"
+    },
+    {
+      "Id": "C:\\Users\\burak\\OneDrive\\Masaüstü\\blogv2\\blogv2\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js"
+    },
+    {
+      "Id": "C:\\Users\\burak\\OneDrive\\Masaüstü\\blogv2\\blogv2\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js"
+    },
+    {
+      "Id": "C:\\Users\\burak\\OneDrive\\Masaüstü\\blogv2\\blogv2\\wwwroot\\lib\\jquery-validation\\LICENSE.md",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\LICENSE.md"
+    },
+    {
+      "Id": "C:\\Users\\burak\\OneDrive\\Masaüstü\\blogv2\\blogv2\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\additional-methods.js"
+    },
+    {
+      "Id": "C:\\Users\\burak\\OneDrive\\Masaüstü\\blogv2\\blogv2\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\additional-methods.min.js"
+    },
+    {
+      "Id": "C:\\Users\\burak\\OneDrive\\Masaüstü\\blogv2\\blogv2\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\jquery.validate.js"
+    },
+    {
+      "Id": "C:\\Users\\burak\\OneDrive\\Masaüstü\\blogv2\\blogv2\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\jquery.validate.min.js"
+    },
+    {
+      "Id": "C:\\Users\\burak\\OneDrive\\Masaüstü\\blogv2\\blogv2\\wwwroot\\lib\\jquery\\LICENSE.txt",
+      "PackagePath": "staticwebassets\\lib\\jquery\\LICENSE.txt"
+    },
+    {
+      "Id": "C:\\Users\\burak\\OneDrive\\Masaüstü\\blogv2\\blogv2\\wwwroot\\lib\\jquery\\dist\\jquery.js",
+      "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.js"
+    },
+    {
+      "Id": "C:\\Users\\burak\\OneDrive\\Masaüstü\\blogv2\\blogv2\\wwwroot\\lib\\jquery\\dist\\jquery.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.min.js"
+    },
+    {
+      "Id": "C:\\Users\\burak\\OneDrive\\Masaüstü\\blogv2\\blogv2\\wwwroot\\lib\\jquery\\dist\\jquery.min.map",
+      "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.min.map"
+    },
+    {
+      "Id": "C:\\Users\\burak\\OneDrive\\Masaüstü\\blogv2\\blogv2\\wwwroot\\textures\\palette_baseColor.png",
+      "PackagePath": "staticwebassets\\textures\\palette_baseColor.png"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.blogv2.Microsoft.AspNetCore.StaticWebAssets.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssets.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.build.blogv2.props",
+      "PackagePath": "build\\blogv2.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.buildMultiTargeting.blogv2.props",
+      "PackagePath": "buildMultiTargeting\\blogv2.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.buildTransitive.blogv2.props",
+      "PackagePath": "buildTransitive\\blogv2.props"
+    }
+  ],
+  "ElementsToRemove": []
+}

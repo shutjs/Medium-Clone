@@ -1,0 +1,290 @@
+﻿@{
+    ViewData["Title"] = "Home Page";
+    var isAuthenticated = User.Identity.IsAuthenticated;
+}
+@model IEnumerable<blogv2.Models.Makaleler>
+
+
+@if (!isAuthenticated)
+  {
+<div class="containerSlogan">
+    <div class="contain">
+        <div class="containsol">
+            <div class="slogan">Meraklı kalın.</div>
+            <div class="slogan2">
+                Herhangi bir konudaki yazarların hikayelerini, düşüncelerini ve uzmanlıklarını keşfedin.
+            </div>
+            <a style="text-transform: none;" class="girisForm">
+                <li class="kayitol" id="alt">Okumaya Başla</li>
+            </a>
+        </div>
+        <div class="containsag">
+                <div id="svg-container"></div>
+        </div>
+    </div>
+</div>
+
+<div class="containerTrend">
+    <div class="Baslik"><i class="fa-solid fa-arrow-trend-up"></i> Trending on Medium</div>
+
+    @{
+        var trendingArticles = Model.OrderByDescending(item => item.goruntulenme).ToList();
+    }
+
+    @foreach (var item in trendingArticles)
+    {
+        <a href="/Makaleler/Details/@item.id" style="text-decoration: none; color: #000;">
+            <div class="card">
+                <div class="username">
+                    <img alt="Flutter"
+                         src="https://miro.medium.com/v2/resize:fill:40:40/1*5-aoK8IBmXve5whBQM90GA.png" width="20" height="20"
+                         loading="lazy" style="display: inline-block;">
+                        <div class="isim">@Html.DisplayFor(modelItem => item.yazanKisi)</div>
+                </div>
+                <div class="makaleBaslik">@Html.DisplayFor(modelItem => item.baslik)</div>
+                <div class="tarih">@Html.DisplayFor(modelItem => item.yazilimTarih) · @Html.DisplayFor(modelItem => item.okumaSure)</div>
+            </div>
+        </a>
+    }
+</div>
+
+<div class="cizgim"></div>
+<div class="containerMakaleler">
+    <div class="makalesol">
+        @foreach (var item in Model) {
+            <a href="/Makaleler/Details/@item.id" style="text-decoration: none; color: #000;">
+
+            <div class="makalecard">
+
+                <div class="makalecardsol">
+                    <div class="username" id="user">
+                        <img alt="Flutter" src="https://miro.medium.com/v2/resize:fill:40:40/1*5-aoK8IBmXve5whBQM90GA.png"
+                             width="20" height="20" loading="lazy" style="display: inline-block;">
+                            <div class="isim">@Html.DisplayFor(modelItem => item.yazanKisi)</div>
+                    </div>
+                        <div class="makaleBaslik" id="makaleBaslik">@Html.DisplayFor(modelItem => item.baslik)</div>
+                        <div class="makaleaciklama">@Html.DisplayFor(modelItem => item.icerik)</div>
+                        <div class="tarih" id="tarih">@Html.DisplayFor(modelItem => item.yazilimTarih) · @Html.DisplayFor(modelItem => item.okumaSure)</div>
+                        <div class="kategori">@Html.DisplayFor(modelItem => item.kategori)</div>
+                </div>
+                <div class="makalecardsag">
+                            <img src="@Html.DisplayFor(modelItem => item.icerikResim)" alt="banner">
+                </div>
+            </div>
+        </a>
+        }
+    </div>
+    <div class="makalesag">
+        <div class="makaleBaslik" style="text-align: center;">Sizin için önemli olan daha fazla şeyi keşfedin</div>
+        <div class="kategoris">
+            @{
+ 
+                var distinctCategories = Model.GroupBy(item => item.kategori)
+                .Select(group => group.First())
+                .ToList();
+            }
+            @if (distinctCategories.Any())
+            {
+                @foreach (var item in distinctCategories)
+                {
+                    <a href="/kategoriler/@Html.DisplayFor(modelItem => item.kategori)" style="text-transform: none; color: #000; text-decoration: none;">
+                        <div class="kategori" id="sag">@Html.DisplayFor(modelItem => item.kategori)</div>
+                    </a>
+                }
+            }
+            else
+            {
+                <p>Kategori bulunamadı.</p>
+            }
+        </div>
+    </div>
+    </div>
+} else
+{
+
+
+    <div class="containerMakaleler" id="containAuthMakale">
+            <div class="tab-container">
+                <div class="tab active" onclick="openTab('tab1')">Senin İçin</div>
+                <div class="tab" onclick="openTab('tab2')">Popüler Olanlanlar</div>
+              
+            </div>
+        <div id="tab1" class="tab-content active">
+        <div class="makalesol">
+            @foreach (var item in Model)
+            {
+                <a href="/Makaleler/Details/@item.id" style="text-decoration: none; color: #000;">
+
+                    <div class="makalecard">
+
+                        <div class="makalecardsol">
+                            <div class="username" id="user">
+                                <img alt="Flutter" src="https://miro.medium.com/v2/resize:fill:40:40/1*5-aoK8IBmXve5whBQM90GA.png"
+                                     width="20" height="20" loading="lazy" style="display: inline-block;">
+                                <div class="isim">@Html.DisplayFor(modelItem => item.yazanKisi)</div>
+                            </div>
+                            <div class="makaleBaslik" id="makaleBaslik">@Html.DisplayFor(modelItem => item.baslik)</div>
+                            <div class="makaleaciklama">@Html.DisplayFor(modelItem => item.icerik)</div>
+                            <div class="tarih" id="tarih">@Html.DisplayFor(modelItem => item.yazilimTarih) · @Html.DisplayFor(modelItem => item.okumaSure)</div>
+                            <div class="kategori">@Html.DisplayFor(modelItem => item.kategori)</div>
+                        </div>
+                        <div class="makalecardsag">
+                            <img src="@Html.DisplayFor(modelItem => item.icerikResim)" alt="banner">
+                        </div>
+                    </div>
+                </a>
+            }
+        </div>
+        <div class="makalesag">
+            <div class="makaleBaslik" style="text-align: center;">Sizin için önemli olan daha fazla şeyi keşfedin</div>
+            <div class="kategoris">
+                @{
+
+                    var distinctCategories = Model.GroupBy(item => item.kategori)
+                    .Select(group => group.First())
+                    .ToList();
+                }
+                @if (distinctCategories.Any())
+                {
+                    @foreach (var item in distinctCategories)
+                    {
+                        <a href="/kategoriler/@Html.DisplayFor(modelItem => item.kategori)" style="text-transform: none; color: #000; text-decoration: none;">
+                            <div class="kategori" id="sag">@Html.DisplayFor(modelItem => item.kategori)</div>
+                        </a>
+                    }
+                }
+                else
+                {
+                    <p>Kategori bulunamadı.</p>
+                }
+            </div>
+        </div>
+    </div>
+        <div id="tab2" class="tab-content">
+            @{
+                var trendingArticles = Model.OrderByDescending(item => item.goruntulenme).ToList();
+            }
+            <div class="makalesol">
+                @foreach (var item in trendingArticles)
+                {
+                    <a href="/Makaleler/Details/@item.id" style="text-decoration: none; color: #000;">
+
+                        <div class="makalecard">
+
+                            <div class="makalecardsol">
+                                <div class="username" id="user">
+                                    <img alt="Flutter" src="https://miro.medium.com/v2/resize:fill:40:40/1*5-aoK8IBmXve5whBQM90GA.png"
+                                         width="20" height="20" loading="lazy" style="display: inline-block;">
+                                    <div class="isim">@Html.DisplayFor(modelItem => item.yazanKisi)</div>
+                                </div>
+                                <div class="makaleBaslik" id="makaleBaslik">@Html.DisplayFor(modelItem => item.baslik)</div>
+                                <div class="makaleaciklama">@Html.DisplayFor(modelItem => item.icerik)</div>
+                                <div class="tarih" id="tarih">@Html.DisplayFor(modelItem => item.yazilimTarih) · @Html.DisplayFor(modelItem => item.okumaSure)</div>
+                                <div class="kategori">@Html.DisplayFor(modelItem => item.kategori)</div>
+                            </div>
+                            <div class="makalecardsag">
+                                <img src="@Html.DisplayFor(modelItem => item.icerikResim)" alt="banner">
+                            </div>
+                        </div>
+                    </a>
+                }
+            </div>
+            <div class="makalesag">
+                <div class="makaleBaslik" style="text-align: center;">Sizin için önemli olan daha fazla şeyi keşfedin</div>
+                <div class="kategoris">
+                   
+                    @if (distinctCategories.Any())
+                    {
+                        @foreach (var item in distinctCategories)
+                        {
+
+                            <a href="/kategoriler/@Html.DisplayFor(modelItem => item.kategori)" style="text-transform: none; color: #000; text-decoration: none;">
+                                <div class="kategori" id="sag">@Html.DisplayFor(modelItem => item.kategori)</div>
+                            </a>
+                        }
+                    }
+                    else
+                    {
+                        <p>Kategori bulunamadı.</p>
+                    }
+                </div>
+            </div>
+        </div>
+
+        <div id="tab3" class="tab-content">
+            <h2>Sekme 3 İçeriği</h2>
+            <p>Bu sekmenin içeriği burada yer alır.</p>
+        </div>
+ </div>
+
+   
+}
+<script>
+    function openTab(tabName) {
+        var i, tabContent, tabLinks;
+        tabContent = document.getElementsByClassName("tab-content");
+        for (i = 0; i < tabContent.length; i++) {
+            tabContent[i].style.display = "none";
+        }
+        tabLinks = document.getElementsByClassName("tab");
+
+
+        for (i = 0; i < tabLinks.length; i++) {
+            tabLinks[i].classList.remove("active");
+        }
+
+        document.getElementById(tabName).style.display = "block";
+
+        event.currentTarget.classList.add("active");
+
+    }
+</script>
+
+<script>
+
+    function generateRandomOpacityMCharacters(rows, columns) {
+        let result = '';
+        let usedPositions = [];
+
+        for (let i = 0; i < rows; i++) {
+            for (let j = 0; j < columns; j++) {
+                let randomX, randomY;
+
+
+                do {
+                    randomX = Math.random() * 700;
+                    randomY = Math.random() * 574;
+                } while (
+                    usedPositions.some(
+                        pos => Math.abs(pos.x - randomX) < 30 && Math.abs(pos.y - randomY) < 30
+                    )
+                );
+
+                usedPositions.push({ x: randomX, y: randomY });
+
+                result += `<tspan class="animated-m" x="${randomX}" y="${randomY}">M</tspan>`;
+            }
+        }
+
+        return result;
+    }
+
+    const svgCode = `
+          <svg xmlns="http://www.w3.org/2000/svg" width="100%" height="100%" viewBox="0 0 500 370">
+            <text font-size="22" font-family="Arial" fill="black" opacity="1">
+              ${generateRandomOpacityMCharacters(15, 15)}
+            </text>
+          </svg>
+        `;
+
+
+    document.getElementById('svg-container').innerHTML = svgCode;
+
+
+    const tspans = document.querySelectorAll('.animated-m');
+    tspans.forEach(tspan => {
+        const randomDelay = Math.random() * 2;
+        tspan.style.animation = `fadeInOut 2.5s infinite alternate`;
+        tspan.style.animationDelay = `-${randomDelay}s`; 
+    });
+</script>

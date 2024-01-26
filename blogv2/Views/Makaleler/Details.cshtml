@@ -1,0 +1,23 @@
+﻿@model blogv2.Models.Makaleler
+
+@{
+    ViewData["Title"] = "Details";
+}
+<div class="listecontainer">
+    <div class="titleListe">@Html.DisplayFor(model => model.baslik)</div>
+    <a href="/@Html.Raw("@")@Html.DisplayFor(model => model.yazanKisi)" style="text-decoration:none">
+    <div class="yazanKisi">@Html.DisplayFor(model => model.yazanKisi)</div>
+    </a>
+    <div class="iconurl" style="width:740px; height: 480px; margin:auto; padding-bottom:40px;"><img src="@Html.DisplayFor(model => model.icerikResim)" alt="Banner" width="740" height="480"></div>
+    <div class="icerik">@Html.DisplayFor(model => model.icerik)</div>
+</div>
+<style>
+   
+</style>
+
+
+
+            <!--Html.DisplayNameFor(model => model.baslik) -->
+    
+    
+

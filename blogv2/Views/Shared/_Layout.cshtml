@@ -1,0 +1,338 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="content-type" content="text/html;charset=utf-8" />
+    <meta name="generator" content="Geany 1.37.1" />
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Medium - @ViewData["Title"]</title>
+    <link rel="shortcut icon" href="https://miro.medium.com/v2/1*m-R_BkNf1Qjr1YbyOIJY2w.png" type="image/x-icon">
+    <link rel="stylesheet" href="~/css/index.css" asp-append-version="true" />
+    <script src="~/js/webcomponents-loader.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" </head>
+@{
+    var isAuthenticated = User.Identity.IsAuthenticated;
+
+}
+
+<body>
+    <div class="header" id="myHeader">
+        <div class="menus">
+            <a href="/" style="text-decoration: none;">
+                @if (!isAuthenticated)
+                {
+                    <svg viewBox="0 0 3940 610" class="cff logo">
+                        <path
+                            d="M594.79 308.2c0 163.76-131.85 296.52-294.5 296.52S5.8 472 5.8 308.2 137.65 11.69 300.29 11.69s294.5 132.75 294.5 296.51M917.86 308.2c0 154.16-65.93 279.12-147.25 279.12s-147.25-125-147.25-279.12S689.29 29.08 770.61 29.08s147.25 125 147.25 279.12M1050 308.2c0 138.12-23.19 250.08-51.79 250.08s-51.79-112-51.79-250.08 23.19-250.08 51.8-250.08S1050 170.09 1050 308.2M1862.77 37.4l.82-.18v-6.35h-167.48l-155.51 365.5-155.51-365.5h-180.48v6.35l.81.18c30.57 6.9 46.09 17.19 46.09 54.3v434.45c0 37.11-15.58 47.4-46.15 54.3l-.81.18V587H1327v-6.35l-.81-.18c-30.57-6.9-46.09-17.19-46.09-54.3V116.9L1479.87 587h11.33l205.59-483.21V536.9c-2.62 29.31-18 38.36-45.68 44.61l-.82.19v6.3h213.3v-6.3l-.82-.19c-27.71-6.25-43.46-15.3-46.08-44.61l-.14-445.2h.14c0-37.11 15.52-47.4 46.08-54.3m97.43 287.8c3.49-78.06 31.52-134.4 78.56-135.37 14.51.24 26.68 5 36.14 14.16 20.1 19.51 29.55 60.28 28.09 121.21zm-2.11 22h250v-1.05c-.71-59.69-18-106.12-51.34-138-28.82-27.55-71.49-42.71-116.31-42.71h-1c-23.26 0-51.79 5.64-72.09 15.86-23.11 10.7-43.49 26.7-60.45 47.7-27.3 33.83-43.84 79.55-47.86 130.93-.13 1.54-.24 3.08-.35 4.62s-.18 2.92-.25 4.39a332.64 332.64 0 0 0-.36 21.69C1860.79 507 1923.65 600 2035.3 600c98 0 155.07-71.64 169.3-167.8l-7.19-2.53c-25 51.68-69.9 83-121 79.18-69.76-5.22-123.2-75.95-118.35-161.63m532.69 157.68c-8.2 19.45-25.31 30.15-48.24 30.15s-43.89-15.74-58.78-44.34c-16-30.7-24.42-74.1-24.42-125.51 0-107 33.28-176.21 84.79-176.21 21.57 0 38.55 10.7 46.65 29.37zm165.84 76.28c-30.57-7.23-46.09-18-46.09-57V5.28L2424.77 60v6.7l1.14-.09c25.62-2.07 43 1.47 53.09 10.79 7.9 7.3 11.75 18.5 11.75 34.26v71.14c-18.31-11.69-40.09-17.38-66.52-17.38-53.6 0-102.59 22.57-137.92 63.56-36.83 42.72-56.3 101.1-56.3 168.81C2230 518.72 2289.53 600 2378.13 600c51.83 0 93.53-28.4 112.62-76.3V588h166.65v-6.66zm159.29-505.33c0-37.76-28.47-66.24-66.24-66.24-37.59 0-67 29.1-67 66.24s29.44 66.24 67 66.24c37.77 0 66.24-28.48 66.24-66.24m43.84 505.33c-30.57-7.23-46.09-18-46.09-57h-.13V166.65l-166.66 47.85v6.5l1 .09c36.06 3.21 45.93 15.63 45.93 57.77V588h166.8v-6.66zm427.05 0c-30.57-7.23-46.09-18-46.09-57V166.65L3082 212.92v6.52l.94.1c29.48 3.1 38 16.23 38 58.56v226c-9.83 19.45-28.27 31-50.61 31.78-36.23 0-56.18-24.47-56.18-68.9V166.66l-166.66 47.85V221l1 .09c36.06 3.2 45.94 15.62 45.94 57.77v191.27a214.48 214.48 0 0 0 3.47 39.82l3 13.05c14.11 50.56 51.08 77 109 77 49.06 0 92.06-30.37 111-77.89v66h166.66v-6.66zM3934.2 588v-6.67l-.81-.19c-33.17-7.65-46.09-22.07-46.09-51.43v-243.2c0-75.83-42.59-121.09-113.93-121.09-52 0-95.85 30.05-112.73 76.86-13.41-49.6-52-76.86-109.06-76.86-50.12 0-89.4 26.45-106.25 71.13v-69.87l-166.66 45.89v6.54l1 .09c35.63 3.16 45.93 15.94 45.93 57V588h155.5v-6.66l-.82-.2c-26.46-6.22-35-17.56-35-46.66V255.72c7-16.35 21.11-35.72 49-35.72 34.64 0 52.2 24 52.2 71.28V588h155.54v-6.66l-.82-.2c-26.46-6.22-35-17.56-35-46.66v-248a160.45 160.45 0 0 0-2.2-27.68c7.42-17.77 22.34-38.8 51.37-38.8 35.13 0 52.2 23.31 52.2 71.28V588z">
+                        </path>
+                    </svg>
+                }
+            </a>
+            <div class="menu">
+                <ul>
+
+
+                    @if (!isAuthenticated)
+                    {
+
+                        <style>
+                            ul li {
+                                transform: translateY(92%);
+                            }
+                        </style>
+                        <li><a href="/Home/about">Hakkımızda</a></li>
+                        <li><a href="" id="loginLink">Giriş Yap</a></li>
+                        <a style="text-transform: none;">
+                            <li class="kayitol" id="kayitol">Şimdi Başlayalım</li>
+                        </a>
+                    }
+                    else
+                    {
+                        <style>
+               
+                            .header {
+                                background-color: white;
+                                height: 63px;
+                                border-bottom: 1px solid #d6d6d6;
+                                position: fixed;
+                                top: 0;
+                                transition: top 0.3s ease-in-out;
+                            }
+
+                            .menu {
+                                float: none;
+                            }
+
+                            .menus {
+                                width: 99%;
+                            }
+
+                            ul {
+                                position: relative;
+                                top: 2px;
+                            }
+
+                            ul li {
+                                float: right;
+                                margin-left: 20px;
+                            }
+                        </style>
+
+
+                        <a href="/" style="text-decoration: none;">
+                            <div class="logom"><img src="~/images/Logos/Ekran görüntüsü 2023-12-01 234622.png" width="74"
+                                    height="61" alt="logo"></div>
+                        </a>
+                        <div class="newmenu">
+                            @{
+                                var username = User.Identity.Name;
+                                var profileImageUrl = Context.Session.GetString("ProfileImage") ?? "";
+                            }
+                            <li onclick="showMenu()" style="position: relative; top: -37px;"><img src="@profileImageUrl"
+                                    width="44" height="44" style="float:right; cursor: pointer;" /></li>
+
+                        <li><a href="/Makaleler/Create"><i class="fa-regular fa-pen-to-square"></i> Yaz</a></li>
+
+
+
+                        </div>
+
+
+
+                    }
+
+                </ul>
+            </div>
+        </div>
+        <form asp-controller="Home" asp-action="MailOnay" method="post">
+
+            @if (isAuthenticated)
+            {
+                @if (Context.Session.GetString("MailVerifDurum") == "hayir")
+                {
+
+                    <div class="mailOnay Onay">
+                        <p> Lütfen Mailinizi Doğrulamak İçin Mailinize Gönderilen Kodu Giriniz</p> <input type="text"
+                            name="code" placeholder=" Lütfen Onay Kodunu Giriniz" /><br /> <button type="submit">Onayla</button>
+                    </div>
+                }
+            }
+        </form>
+        <ul class="menu-list" id="menu-list" style="display:none;">
+            <li><a href="@Html.Raw("@")@User.Identity.Name" class="alink"><svg width="24" height="24"
+                        viewBox="0 0 24 24" fill="none" aria-label="Profile">
+                        <circle cx="12" cy="7" r="4.5" stroke="currentColor"></circle>
+                        <path d="M3.5 21.5v-4.34C3.5 15.4 7.3 14 12 14s8.5 1.41 8.5 3.16v4.34" stroke="currentColor"
+                            stroke-linecap="round"></path>
+                    </svg>ㅤProfil </a></li>
+            <li><a href="/" class="alink"><svg width="24" height="24" viewBox="0 0 24 24" fill="none"
+                        aria-label="Lists">
+                        <path
+                            d="M6.44 6.69h0a1.5 1.5 0 0 1 1.06-.44h9c.4 0 .78.16 1.06.44l.35-.35-.35.35c.28.28.44.66.44 1.06v14l-5.7-4.4-.3-.23-.3.23-5.7 4.4v-14c0-.4.16-.78.44-1.06z"
+                            stroke="currentColor"></path>
+                        <path d="M12.5 2.75h-8a2 2 0 0 0-2 2v11.5" stroke="currentColor" stroke-linecap="round"></path>
+                    </svg>ㅤKategoriler</a></li>
+            <div class="cizgim" style="margin-bottom: 10px;"></div>
+            <li><a href="/Profile/Settings" class="alink">Ayarlar</a></li>
+            <li><a href="/about" class="alink">Yardım</a></li>
+            <div class="cizgim" style="margin-bottom: 10px;"></div>
+            <li><a class="alink" asp-controller="Home" asp-action="Logout">Çıkış Yap</a></li>
+            @{
+                var Email = Context.Session.GetString("Email") ?? "";
+            }
+            <li><a class="alink">@Email</a></li>
+
+        </ul>
+    </div>
+    @if (isAuthenticated)
+    {
+
+    }
+    <script>
+        function showMenu() {
+            var menuList = document.getElementById("menu-list");
+            var computedStyle = window.getComputedStyle(menuList);
+
+            if (computedStyle.display === "none" || computedStyle.display === "") {
+                menuList.style.display = "block";
+                menuList.style.opacity = "1";
+
+                menuList.style.transition = "opacity 0.3s ease-in";
+            } else {
+                menuList.style.opacity = "0";
+                menuList.style.transition = "opacity 0.3s ease-out";
+
+                setTimeout(function () {
+                    menuList.style.display = "none";
+                }, 300);
+            }
+        }
+
+    </script>
+
+    <div class="overlay" id="overlay"></div>
+
+    <div class="RegisterContain hidden" id="RegisterContain">
+
+        <button style="z-index:99999" id="closeRegisterBtn">X</button>
+        <form class="form" asp-controller="Home" asp-action="Register" method="post">
+
+            <div class="flex-column">
+                <label>Kullanıcı Adı </label>
+            </div>
+            <div class="inputForm">
+                <input type="text" class="input" placeholder="Kullanıcı Adı" name="username">
+            </div>
+
+            <div class="flex-column">
+                <label>Email </label>
+            </div>
+            <div class="inputForm">
+                <input type="text" class="input" placeholder="Email" name="emailreg">
+            </div>
+
+            <div class="flex-column">
+                <label>Parola </label>
+            </div>
+            <div class="inputForm">
+                <input type="password" class="input" placeholder="Parola" name="passwordreg">
+            </div>
+
+            <div class="flex-column">
+                <label>İsim </label>
+            </div>
+            <div class="inputForm">
+                <input type="text" class="input" placeholder="İsim" name="name">
+            </div>
+
+            <div class="flex-column">
+                <label>Soyisim </label>
+            </div>
+            <div class="inputForm">
+                <input type="text" class="input" placeholder="Soyisim" name="surname">
+            </div>
+
+            <button class="button-submit" type="submit">Kayıt Ol</button>
+            <p class="p">
+                Bir Hesaba Sahip Misin? <span class="span" id="girisForm">Giriş Yap</span>
+            </p>
+        </form>
+    </div>
+
+
+
+
+    <div class="LoginContain hidden" id="LoginContain">
+        <button style="z-index:99999" id="closeloginBtn">X</button>
+        <form class="form" asp-controller="Home" asp-action="Login" method="post">
+            <div class="flex-column">
+                <label>Email </label>
+            </div>
+            <div class="inputForm">
+                <svg height="20" viewBox="0 0 32 32" width="20" xmlns="http://www.w3.org/2000/svg">
+                    <g id="Layer_3" data-name="Layer 3">
+                        <path
+                            d="m30.853 13.87a15 15 0 0 0 -29.729 4.082 15.1 15.1 0 0 0 12.876 12.918 15.6 15.6 0 0 0 2.016.13 14.85 14.85 0 0 0 7.715-2.145 1 1 0 1 0 -1.031-1.711 13.007 13.007 0 1 1 5.458-6.529 2.149 2.149 0 0 1 -4.158-.759v-10.856a1 1 0 0 0 -2 0v1.726a8 8 0 1 0 .2 10.325 4.135 4.135 0 0 0 7.83.274 15.2 15.2 0 0 0 .823-7.455zm-14.853 8.13a6 6 0 1 1 6-6 6.006 6.006 0 0 1 -6 6z">
+                        </path>
+                    </g>
+                </svg>
+                <input type="text" class="input" placeholder="Emailini Gir" name="email">
+            </div>
+
+            <div class="flex-column">
+                <label>Parola </label>
+            </div>
+            <div class="inputForm">
+                <svg height="20" viewBox="-64 0 512 512" width="20" xmlns="http://www.w3.org/2000/svg">
+                    <path
+                        d="m336 512h-288c-26.453125 0-48-21.523438-48-48v-224c0-26.476562 21.546875-48 48-48h288c26.453125 0 48 21.523438 48 48v224c0 26.476562-21.546875 48-48 48zm-288-288c-8.8125 0-16 7.167969-16 16v224c0 8.832031 7.1875 16 16 16h288c8.8125 0 16-7.167969 16-16v-224c0-8.832031-7.1875-16-16-16zm0 0">
+                    </path>
+                    <path
+                        d="m304 224c-8.832031 0-16-7.167969-16-16v-80c0-52.929688-43.070312-96-96-96s-96 43.070312-96 96v80c0 8.832031-7.167969 16-16 16s-16-7.167969-16-16v-80c0-70.59375 57.40625-128 128-128s128 57.40625 128 128v80c0 8.832031-7.167969 16-16 16zm0 0">
+                    </path>
+                </svg>
+                <input type="password" class="input" placeholder="Parolanı Gir" name="parola">
+            </div>
+
+            <div class="flex-row">
+                <div>
+                    <input type="checkbox">
+                    <label>Beni Hatırla </label>
+                </div>
+                <span class="span">Parolanı mı unuttun?</span>
+            </div>
+            <button class="button-submit" type="submit">Giriş Yap</button>
+            <p class="p">
+                Bir Hesaba Sahip Değil misin? <span class="span">Kayıt Ol</span>
+
+            </p>
+            <p class="p line">Yada</p>
+
+            <div class="flex-row">
+                <button class="btn google">
+                    <svg version="1.1" width="20" id="Layer_1" xmlns="http://www.w3.org/2000/svg"
+                        xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 512 512"
+                        style="enable-background:new 0 0 512 512;" xml:space="preserve">
+                        <path style="fill:#FBBB00;" d="M113.47,309.408L95.648,375.94l-65.139,1.378C11.042,341.211,0,299.9,0,256
+        c0-42.451,10.324-82.483,28.624-117.732h0.014l57.992,10.632l25.404,57.644c-5.317,15.501-8.215,32.141-8.215,49.456
+        C103.821,274.792,107.225,292.797,113.47,309.408z"></path>
+                        <path style="fill:#518EF8;" d="M507.527,208.176C510.467,223.662,512,239.655,512,256c0,18.328-1.927,36.206-5.598,53.451
+        c-12.462,58.683-45.025,109.925-90.134,146.187l-0.014-0.014l-73.044-3.727l-10.338-64.535
+        c29.932-17.554,53.324-45.025,65.646-77.911h-136.89V208.176h138.887L507.527,208.176L507.527,208.176z"></path>
+                        <path style="fill:#28B446;" d="M416.253,455.624l0.014,0.014C372.396,490.901,316.666,512,256,512
+        c-97.491,0-182.252-54.491-225.491-134.681l82.961-67.91c21.619,57.698,77.278,98.771,142.53,98.771
+        c28.047,0,54.323-7.582,76.87-20.818L416.253,455.624z"></path>
+                        <path style="fill:#F14336;" d="M419.404,58.936l-82.933,67.896c-23.335-14.586-50.919-23.012-80.471-23.012
+        c-66.729,0-123.429,42.957-143.965,102.724l-83.397-68.276h-0.014C71.23,56.123,157.06,0,256,0
+        C318.115,0,375.068,22.126,419.404,58.936z"></path>
+
+                    </svg>
+
+                    Google
+
+                </button>
+            </div>
+        </form>
+    </div>
+
+    <div class="container">
+        <main role="main" class="pb-3">
+            @RenderBody()
+        </main>
+    </div>
+
+    <script src="~/js/login.js"></script>
+    @if (!isAuthenticated)
+    {
+        <script src="~/js/script.js"></script>
+    }
+    else
+    {
+        <script>
+            var lastScrollTop = 0;
+
+            window.addEventListener("scroll", function () {
+                var st = window.pageYOffset || document.documentElement.scrollTop;
+
+                if (st > lastScrollTop) {
+
+                    document.getElementById("myHeader").style.top = "-80px";
+                } else {
+
+                    document.getElementById("myHeader").style.top = "0";
+                }
+
+                lastScrollTop = st <= 0 ? 0 : st;
+            });
+        </script>
+    }
+    <script src="~/js/model-viewer.min.js"></script>
+    <script src="~/lib/jquery/dist/jquery.min.js"></script>
+    <script src="~/lib/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="~/js/site.js" asp-append-version="true"></script>
+    @await RenderSectionAsync("Scripts", required: false)
+</body>
+
+</html>
